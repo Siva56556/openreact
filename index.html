@@ -1,0 +1,51 @@
+   
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+   <body>
+    <div id ="parent">
+
+    </div>
+
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+<script>
+// var para =document.createElement("p")
+// console.log(para)
+// para.innerText="hello"
+
+// let root = document.getElementById("parent")
+// root.appendChild(para)
+// console.log(root);
+
+//   let h1 =React.createElement("h1",{},"hello world")
+//   console.log(h1);
+//   let div = document.getElementById("parent")
+//   console.log(div);
+//         let x = ReactDOM.createRoot(div)
+//         x.render(h1)
+
+
+let para = React.createElement("p",{} ,"amigos")
+console.log(para);
+let div = document.getElementById("parent")
+console.log(div);
+     let parent  =ReactDOM.createRoot(div)
+     parent.render(para)
+
+
+       
+  
+  
+
+
+</script>
+    
+   </body>  
+    </html>
